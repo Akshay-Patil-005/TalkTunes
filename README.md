@@ -4,7 +4,7 @@
 
     ```sh
     # clone the project from the GitHub repo:
-    
+    clone https://github.com/Akshay-Patil-005/TalkTunes.git
     ```
 
 2.  Install project dependencies.
