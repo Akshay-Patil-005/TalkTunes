@@ -1,0 +1,143 @@
+/**
+* MIT License
+*
+* Copyright (c) 2018 Caterina Paun
+*
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the "Software"), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions:
+*
+* The above copyright notice and this permission notice shall be included in all
+* copies or substantial portions of the Software.
+*
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+* SOFTWARE.
+*/
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+}
+
+header {
+  background-color: #4ab98b;
+}
+
+footer {
+  background-color: #4ab98b;
+  position: absolute;
+  color: #fefefe;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 80px;
+}
+
+footer > p {
+  padding: 25px 80px 0;
+}
+
+img {
+  height: 80px;
+}
+
+.logo {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: #fefefe;
+  margin-top: -60px;
+}
+
+.jumbotron p {
+  font-size: 16px;
+}
+
+.one-third {
+  float: left;
+  width: 45%;
+}
+
+.two-thirds {
+  float: left;
+  width: 55%;
+}
+
+.box {
+  padding: 10px 100px 20px;
+}
+
+.paper {
+  max-width: 100%;
+  min-height: 500px;
+  margin: 30px auto;
+  background: #fefefe;
+  border: 1px solid #cacaca;
+  border-radius: 5px;
+  box-shadow: 2px 2px 0 rgba(0,0,0,0.1);
+  padding: 1rem 2rem 1rem 5rem;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+  background-size: 100% 3rem;
+  position: relative;
+  line-height: 3rem;
+}
+
+.paper:before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  top: 0;
+  left: 40px;
+  bottom: 0;
+  border: 1px solid;
+  border-color: transparent #f685b4;
+}
+
+.paper p {
+  margin: 0 0 0;
+}
+
+.chart > div {
+  background-color: #454545;
+  margin: 10px;
+}
+
+.btn {
+  margin-right: 10px;
+}
+
+.btn-default {
+  background-color: #4ab98b;
+  color: #fefefe;
+}
+
+.btn-default:hover {
+  background-color: #137d51;
+  color: #fefefe;
+}
+
+.btn-inverse {
+  border: 1px solid #4ab98b;
+  color: #4ab98b;
+}
+
+.btn-inverse:hover {
+  border: 1px solid #137d51;
+  color: #137d51;
+}
+
+#analyticsDiv {
+  min-height: 400px;
+  background-color: #f3f3f3;
+}
